@@ -101,7 +101,7 @@ Then install LightGBM:
 .. code::
 
   git clone --recursive https://github.com/Microsoft/LightGBM ; cd LightGBM
-  export CXX=g++-7 CC=gcc-7
+  export CXX=g++-6 CC=gcc-6 #我的mac，gcc版本是6不是7
   mkdir build ; cd build
   cmake ..
   make -j4
